@@ -1,7 +1,6 @@
-	</div><!-- #main -->
-	
+
 	<div id="footer">
-		<p><strong>copyright me</strong></p>
+		<p><strong>All Rights Reserved</strong></p>
 	</div>
 	
 

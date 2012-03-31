@@ -13,14 +13,12 @@
 <div id="wrapper">
 	<div id="header">
 			<div id="branding" role="banner">
-					<h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<h1><?php echo bloginfo( 'name' );?></h1>
 			</div><!-- #branding -->
 
-			<div id="access" role="navigation">
+			<div id="access">
+			  <ul id="list">
 			  <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 			</div><!-- #access -->
 	</div><!-- #header -->
 		
-		
-		
-	<div id="main">
