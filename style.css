@@ -17,7 +17,14 @@ background-color: grey;
 color: white;
 padding-left:35px;
 padding-top:10px;
+
 }
+
+
+#branding  a:link  {text-decoration: none; color:white;}
+#branding  a:active  {text-decoration: none; color:white;}
+#branding  a:visited  {text-decoration: none; color:white;}
+#branding  a:hover  {text-decoration: none; color:white;}
 
 #access{
 float: right;
@@ -28,23 +35,45 @@ text-decoration: none;
 height:110px;
 }
 
-A:link {text-decoration: none}
-A:visited {text-decoration: none}
-A:active {text-decoration: none}
-A:hover {text-decoration: underline}
+#access A:link {text-decoration: none}
+#access A:visited {text-decoration: none}
+#access A:active {text-decoration: none}
+#access A:hover {background-color:darkgrey;}
+
 
 #list ul{
 list-style:none;
+width:200px;
 }
 
 #main {
 float:left;
  clear:both;
  background-color:white;
- width:625px;
+ width:600px;
  padding-left:25px;
+ padding-right:25px;
  margin-left:25px;
  margin-top:25px;
+ padding-right:25px;
+}
+
+#thedate{
+float:left;
+ background-color:red;
+ color:white;
+ text-align:center;
+ line-height:10px;
+}
+
+#caption{
+float:left;
+padding-left:10px;
+line-height:10px;
+}
+
+#content{
+clear:both;
 }
 
 #sidebar{
@@ -72,6 +101,7 @@ margin-left:5px;
 
 #subscribe{
 clear:both;
+line-height:5px;
 }
 
 #footer{
@@ -79,3 +109,7 @@ clear:both;
 background-color: blue;
 text-align:center;
 }
+
+ A:link {text-decoration: none}
+ A:visited {text-decoration: none}
+ A:active {text-decoration: none}

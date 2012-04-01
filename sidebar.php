@@ -11,17 +11,18 @@
 
 	<div id="subscribe">
 		<p><strong>subscribe</strong></p>
-		<a href="http://www.twitter.com"><p><img src="<?php echo bloginfo( 'template_url' ).'/images/'.'blogimg.png'; ?>" alt="blogpic" height="15" width="15" /> twitter biatch</p></a>
-		<a href="/index.php"><p><img src="<?php echo bloginfo( 'template_url' ).'/images/'.'blogimg.png'; ?>" alt="blogpic" height="15" width="15" /> my blog... oh you here already</p></a>
+		<a href="http://www.twitter.com"><p><img src="<?php echo bloginfo( 'template_url' ).'/images/'.'blogimg.png'; ?>" alt="blogpic" height="15" width="15" /> Twitter</p></a>
+		<a href="/index.php"><p><img src="<?php echo bloginfo( 'template_url' ).'/images/'.'blogimg.png'; ?>" alt="blogpic" height="15" width="15" /> My blog... oh you here already</p></a>
 	</div>
-	
-	<?php if ( is_active_sidebar( 'widgets' ) ) : ?>
-	  <div class="widgets"><?php dynamic_sidebar( 'widgets' ); ?></div>
-	<?php endif; ?>
-	<?php if ( is_singular() || is_404() ) : ?>
-	  <div class="left"><a href="<?php bloginfo( 'url' ); ?>">&laquo; Home page</a></div>
-	<?php else : ?>
-	  <div class="left"><?php next_posts_link( '&laquo; Older posts' ); ?></div>
-	  <div class="right"><?php previous_posts_link( 'Newer posts &raquo;' ); ?></div>
-	<?php endif; ?>
+	</br></br>
+	<div id="search">
+		<?php get_search_form(); ?>
+	</div>			
+	<div id="archives">
+		<h3>Recent Posts</h3>
+		<ul>
+			<?php wp_get_archives('type=postbypost&limit=3'); ?>
+		</ul>
+	</div>
+
 </div>
