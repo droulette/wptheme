@@ -20,23 +20,23 @@
 					
 					<div id="caption">
 						<div id="title">
-							<h1><a href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a></h1>
-					</br>
-					</div>
-					<div id="postinfo">
-										  <em><p>Posted by <?php the_author_posts_link(); ?>
-					  on <a href="<?php the_permalink(); ?>"><?php the_time('F d, Y'); ?></a>
-					  in <?php the_category( ', ' ); ?><?php the_tags( ', ' ); ?></p></em>
-					  </div>
+							<h1><a href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a></h1></br>
+						</div>
+					
+						<div id="postinfo">
+							<p><em>Posted by <?php the_author_posts_link(); ?>
+							on <a href="<?php the_permalink(); ?>"><?php the_time('F d, Y'); ?></a>
+							in <?php the_category( ', ' ); ?><?php the_tags( ', ' ); ?></em></p>
+						</div>
 					</div>
 
 					<div id="content">
-					<?php the_content(); ?>
-					<?php comments_template(); ?>
+						<?php the_content(); ?>
+						<?php comments_template(); ?>
 					</div>
 					<hr>
 				<?php endwhile; endif; ?>
-	</div><!-- #main -->
+	</div>
 	
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
