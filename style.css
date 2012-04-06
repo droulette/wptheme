@@ -46,7 +46,7 @@ list-style:none;
 width:200px;
 }
 
-#main {
+#main, #page {
 float:left;
  clear:both;
  background-color:white;
@@ -106,7 +106,7 @@ line-height:5px;
 
 #footer{
 clear:both;
-background-color: blue;
+background-color: grey;
 text-align:center;
 }
 

@@ -1,4 +1,5 @@
-
+<?php get_header(); ?>
+<div id="singlepost">
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 					<h1 class="entry-title"><?php the_title(); ?></h1>
@@ -8,7 +9,7 @@
 					<div class="entry-utility">
 						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 					</div><!-- .entry-utility -->
-				</div><!-- #post-## -->
+
 
 				<div id="nav-below" class="navigation">
 					<div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
@@ -18,3 +19,7 @@
 				<?php comments_template( '', true ); ?>
 
 <?php endwhile; // end of the loop. ?>
+</div>
+	
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
