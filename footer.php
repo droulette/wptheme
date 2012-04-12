@@ -1,5 +1,5 @@
 	<div id="footer">
-		<p><strong>All Rights Reserved</strong></p>
+	<hr>
 	</div>
 
 <?php
@@ -17,8 +17,9 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
   <!-- scripts concatenated and minified via build script -->
-  <script src="html_bp/js/plugins.js"></script>
-  <script src="html_bp/js/script.js"></script>
+
+  <script src="<?php echo bloginfo( 'template_url' ).'/'.'test.js'; ?>">
+  </script>
   <!-- end scripts -->
 </body>
 </html>

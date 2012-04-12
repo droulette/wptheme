@@ -1,53 +1,54 @@
 #wrapper{
-background-color: darkgrey;
-width: 960px;
-margin: auto;
+ background-color: darkgrey;
+ width: 960px;
+ margin: auto;
 }
 
 #header{
-background-color: green;
-height:110px;
+ background-color: grey;
+ height:110px;
 }
 
 #branding{
-float: left;
-width:675px;
-height: 100px;
-background-color: grey;
-color: white;
-padding-left:35px;
-padding-top:10px;
+ float: left;
+ width: 675px;
+ height: 100px;
+ background-color: grey;
+ color: white;
+ padding-left:35px;
+ padding-top:15px;
 
 }
 
 
-#branding  a:link  {text-decoration: none; color:white;}
-#branding  a:active  {text-decoration: none; color:white;}
-#branding  a:visited  {text-decoration: none; color:white;}
-#branding  a:hover  {text-decoration: none; color:white;}
+ #branding  a:link  {text-decoration: none; color:white;}
+ #branding  a:active  {text-decoration: none; color:white;}
+ #branding  a:visited  {text-decoration: none; color:white;}
+ #branding  a:hover  {text-decoration: none; color:white;}
 
 #access{
-float: right;
-width:250px;
-font-size:20px;
-background-color:grey;
-text-decoration: none;
-height:110px;
+ float: right;
+ width:250px;
+ font-size:17px;
+ background-color:grey;
+ text-decoration: none;
+ height:100px;
+  padding-top:15px;
 }
 
-#access A:link {text-decoration: none}
-#access A:visited {text-decoration: none}
-#access A:active {text-decoration: none}
-#access A:hover {background-color:darkgrey;}
+ #access A:link {text-decoration: none}
+ #access A:visited {text-decoration: none}
+ #access A:active {text-decoration: none}
+ #access A:hover {background-color:darkgrey;}
 
 
 #list ul{
-list-style:none;
-width:200px;
+ list-style:none;
+ width:200px;
 }
 
 #main, #page {
-float:left;
+ float:left;
  clear:both;
  background-color:white;
  width:600px;
@@ -59,57 +60,112 @@ float:left;
 }
 
 #thedate{
-float:left;
- background-color:red;
+ float:left;
  color:white;
  text-align:center;
+ padding-top:13px;
+}
+
+#day{
+ background-color:darkgrey;
+ width:45px;
+ line-height:25px;
+ }
+ 
+#month{
+ background-color:grey;
+ color:darkgrey;
+ width:45px;
+  line-height:25px;
+} 
+
+
+#caption{
+ float:left;
+ padding-left:10px;
  line-height:10px;
 }
 
-#caption{
-float:left;
-padding-left:10px;
-line-height:10px;
-}
 
 #content{
-clear:both;
+ clear:both;
 }
 
 #sidebar{
-float:right;
-background-color: darkgrey;
-width: 260px;
-padding-top: 20px;
+ float:right;
+ background-color: darkgrey;
+ width: 260px;
+ padding-top: 20px;
 }
 
 #name{
-margin-left:5px;
+ margin-left:5px;
 }
 
 #ntdpic{
-float:left;
-width:100px;
-margin-left:5px;
+ float:left;
+ width:100px;
+ margin-left:5px;
 }
 
 #bio{
-float:left;
-width:150px;
-margin-left:5px;
+ float:left;
+ width:150px;
+ height:106px;
+ margin-left:5px;
 }
 
 #subscribe{
-clear:both;
-line-height:5px;
+ clear:both;
 }
 
 #footer{
-clear:both;
-background-color: grey;
-text-align:center;
+ clear:both;
+ background-color: grey;
+ text-align:center;
+
 }
 
  A:link {text-decoration: none}
  A:visited {text-decoration: none}
  A:active {text-decoration: none}
+ 
+ 
+ #first{
+ width:225px;
+ line-height:12px;
+ margin-top:10px;
+ padding-top:4px;
+ padding-bottom:4px;
+ border-top-style:dotted;
+ border-bottom-style:dotted;
+ border-width:thin;
+ }
+ #second{
+ width:225px;
+ line-height:12px;
+ margin-top:5px;
+ padding-bottom:4px;
+ border-bottom-style:dotted;
+ border-width:thin;
+ }
+ 
+ .highlight{
+  background-color:blue;
+  }
+  
+#previous{
+ width:150px;
+ background-color:grey;
+ margin:auto;
+ text-align:center;
+}
+  
+#next{
+ width:150px;
+ background-color:grey;
+ margin:auto;
+ text-align:center;
+} 
+ 
+ 
